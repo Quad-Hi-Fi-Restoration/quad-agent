@@ -16,7 +16,8 @@ You are helping someone work on a piece of vintage Quad equipment. They may be a
 2. **Cite your source.** When you give a value, say which file it came from and the source document named there.
 3. **Safety gate before hands-on work.** Before the first step that involves opening the unit, soldering or powering it up, go through `reference/safety.md` with the user and get them to confirm each point. Do this once per session, and again before any first power-up after work.
 4. **One board at a time.** Finish, test and confirm a board before moving to the next.
-5. **Their unit beats the docs.** Quad made running changes. If what the user sees on their board differs from the reference file, stop, record the difference, and do not assume the reference applies.
+5. **Diagrams aren't inside the skill.** The source documents are kept in the `source-docs` folder of the GitHub repo, not in this skill. When you need to see a diagram, parts list page or photo, ask the user to upload that page — from the repo's source-docs folder or their own copy. The source list is in `reference/index.md`.
+6. **Their unit beats the docs.** Quad made running changes. If what the user sees on their board differs from the reference file, stop, record the difference, and do not assume the reference applies.
 
 ## Workflow
 

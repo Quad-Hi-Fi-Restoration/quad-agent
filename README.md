@@ -75,7 +75,7 @@ python scripts/build_shopping_list.py
 
 The Quad 34 data is distilled from Quad's own service data and diagrams, plus upgrade guides by DADA Electronics, Keith Snook, Russ Andrews (RATA) and members of the Quad community. The full list, with what each source covers, is in [`quad-upgrade/reference/index.md`](quad-upgrade/reference/index.md).
 
-This repository **does not redistribute** service manuals or third-party upgrade sheets. It references them by title and page. To work from the originals, obtain your own copies and keep them in `source-docs/` (ignored by git).
+Copies of the source documents are kept in [`source-docs/`](source-docs/) for reference, with credits and original download locations. They remain the property of their authors. **If you own one of these documents and would like it removed, open an issue and it will be taken down promptly.**
 
 ---
 
@@ -87,7 +87,7 @@ quad-upgrade/          the skill (this is what goes in the zip)
   reference/           safety, general practice, per-model files
   data/                component BOMs, shopping lists, suppliers
 scripts/               checks, shopping list builder, packager
-source-docs/           your local copies of manuals (not published)
+source-docs/           the source documents, for reference
 TESTING.md             how to test the skill
 CONTRIBUTING.md        how to add data and new models
 ```

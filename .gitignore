@@ -1,7 +1,3 @@
-# Source documents stay local unless you have permission to publish them
-source-docs/*/*
-!source-docs/*/.gitkeep
-
 dist/
 __pycache__/
 *.pyc
