@@ -1,0 +1,31 @@
+model,variant,board,ref,function,original_value,original_type,voltage,replacement_value,replacement_type,replacement_part,supplier,supplier_sku,qty,category,status,source,notes
+quad-44,all,motherboard,C402;C403,PSU,47µF,electrolytic,63V,47µF 63V,electrolytic,,DADA,44 kit,2,restoration,unverified,Q44-S01 p2-3,Note polarity before removal - often unmarked on the board
+quad-44,all,motherboard,C404;C405,PSU reservoir,1000µF,electrolytic axial,,1000µF 25V,electrolytic axial (Kit I: axial or radial),,DADA,44 kit,2,restoration,unverified,Q44-S01 p2-3,
+quad-44,Kit II,motherboard,C407,PSU,100µF,electrolytic,16V,100µF 16V,electrolytic,,DADA,44 kit,1,restoration,unverified,Q44-S01 p3,
+quad-44,Kit III,motherboard,C407,PSU,100µF,electrolytic,16V,100µF 16V,electrolytic,,DADA,44 kit,1,restoration,unverified,Q44-S01 p3,
+quad-44,all,motherboard,IC400;IC401;IC402;IC403,Electronic input switches,4066,CMOS switch,,CD4066,CMOS switch DIP14,,DADA,44 kit,4,restoration,unverified,Q44-S01 p2-3; Q44-S02 p45,DADA writes 'CDC4066BNC'. Note pin 1.
+quad-44,all,motherboard,+8.5V to -7.5V rails (back of motherboard),Quad TI 003 erratic switching fix,none fitted,,,4.7µF 63V,electrolytic axial,,DADA,44 kit,1,restoration,unverified,Q44-S01 p2; p4; p6; Q44-S02 p45,Official Quad modification; also resolder the 10 feed-through pins
+quad-44,Kit I,tone,IC500-IC503 (4 op-amps),Tone/volume op-amps,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,4,restoration,unverified,Q44-S01 p2; Q44-S02 p9,Note pin 1
+quad-44,Kit II,tone,IC500-IC503 (4 op-amps),Tone/volume op-amps,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,4,restoration,unverified,Q44-S01 p3; Q44-S02 p9,Note pin 1
+quad-44,Kit I,tone,C522;C523,Tone board,100µF,electrolytic,6.3V,100µF 10V,electrolytic,,DADA,44 kit,2,restoration,unverified,Q44-S01 p2,
+quad-44,Kit II,tone,C522;C523,Tone board,100µF,electrolytic,6.3V,100µF 10V,electrolytic,,DADA,44 kit,2,restoration,unverified,Q44-S01 p3,
+quad-44,Kit I,tone,C528,Tone board,47µF,electrolytic,40V,47µF 63V,electrolytic,,DADA,44 kit,1,restoration,unverified,Q44-S01 p2,
+quad-44,Kit III,tone,5 dual op-amps (IC700 etc.),Tone/volume op-amps,TL072,dual op-amp DIP8,,OPA2604 or LME49720,dual op-amp DIP8,,DADA,44 kit,5,restoration,unverified,Q44-S01 p3,IC701 easier with front and switch rod removed (Q44-S01 p4)
+quad-44,Kit III,tone,C702;C703;C706;C707;C731;C735,Tone board,100µF,electrolytic,6.3V,100µF 10V,electrolytic,,DADA,44 kit,6,restoration,unverified,Q44-S01 p3,
+quad-44,all,tape-module,"Op-amps (2 per module, 2 modules)",Tape modules,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,4,restoration,unverified,Q44-S01 p2-3,Board M12496 iss 3
+quad-44,all,tape-module,C3;C4 (2 modules),Tape modules,100µF,electrolytic,6.3V,100µF 10V,electrolytic,,DADA,44 kit,4,restoration,unverified,Q44-S01 p2-3,
+quad-44,all,disc-module,Op-amps,Disc module,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,2,restoration,unverified,Q44-S01 p2-3,Standard disc module M12515 iss 5. MC and other modules need a special DADA kit.
+quad-44,all,disc-module,C316;C317,Disc module,2.2µF,electrolytic,50V,2.2µF 50V,electrolytic,,DADA,44 kit,2,restoration,unverified,Q44-S01 p2-3,
+quad-44,Kit I,radio-module,Op-amps (M12511 iss 1),Radio module(s),TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,4,restoration,unverified,Q44-S01 p2,"DADA Kit I lists 4, for two radio boards. Confirm how many are fitted."
+quad-44,Kit II,radio-module,Op-amps (M12511 iss 1),Radio module,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,2,restoration,unverified,Q44-S01 p3,
+quad-44,Kit II,aux-module,Op-amps (M12511 iss 2),AUX module,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,2,restoration,unverified,Q44-S01 p3,
+quad-44,Kit III,radio-module,Op-amps (M12511 iss 2),Radio module,TL071,op-amp DIP8,,OPA604 or LME49710,op-amp DIP8,,DADA,44 kit,2,restoration,unverified,Q44-S01 p3,
+quad-44,Kit III,cd-aux-module,Op-amp (M12815 iss 1),CD/AUX module,TL072,dual op-amp DIP8,,OPA2604 or LME49720,dual op-amp DIP8,,DADA,44 kit,1,restoration,unverified,Q44-S01 p3,
+quad-44,all,motherboard,R400;R405,Relay supply,not stated,resistor,,1R,resistor,,DADA,44 kit,2,modification-relay-rattle,unverified,Q44-S01 p7; Q44-S02 p9,Only if the relay rattles at switch-on
+quad-44,all,motherboard,R402;R403,Relay supply,not stated,resistor,,1500R,resistor,,DADA,44 kit,2,modification-relay-rattle,unverified,Q44-S01 p7; Q44-S02 p9,Only if the relay rattles at switch-on
+quad-44,Kit I,tone,R500;R501,Volume zero level,22K,resistor,,6K8,metal film,,DADA,44 kit,2,modification-volume-zero,unverified,Q44-S01 p7,Model I before S/N 2401 only; gives -72dB at zero
+quad-44,Kit I,tone,R502;R503,Volume zero level,6K8,resistor,,2K2,metal film,,DADA,44 kit,2,modification-volume-zero,unverified,Q44-S01 p7,Change with R500/R501
+quad-44,all,radio-module,R204;R205,Gain resistors,fitted,resistor,,remove,,,any,,0,modification-unity-gain,unverified,Q44-S01 p7,Radio M12511 iss 1 and 2; with R202/R203 links
+quad-44,all,radio-module,R202;R203,Gain resistors,fitted,resistor,,wire link,link,,any,,2,modification-unity-gain,unverified,Q44-S01 p7,Radio M12511 iss 1 and 2
+quad-44,all,aux-module,R606;R607,Gain resistors,fitted,resistor,,remove,,,any,,0,modification-unity-gain,unverified,Q44-S01 p7,AUX M12511 iss 2; with R604/R605 links
+quad-44,all,aux-module,R604;R605,Gain resistors,fitted,resistor,,wire link,link,,any,,2,modification-unity-gain,unverified,Q44-S01 p7,AUX M12511 iss 2

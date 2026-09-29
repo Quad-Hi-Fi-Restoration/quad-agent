@@ -8,7 +8,8 @@
 | Quad 606 power amplifier (MK I, MK II; DADA kit also fits 707 / 909) | Draft board recap, PSU capacitors, input sensitivity and MK I input update; not user- or bench-tested; no BOM rows physically verified. | `quad-606/` | `../data/quad-606-bom.csv` |
 | Quad 405 and 405-2 power amplifier | Draft board recap, op-amp and zeners, input sensitivity, reservoir capacitors, rewiring and output protection; not user- or bench-tested; no BOM rows physically verified. | `quad-405/` | `../data/quad-405-bom.csv` |
 | Quad 33 control unit | Draft recap of all boards, 16 V supply modification, gain reduction, phono gain and MM loading options; not user- or bench-tested; no BOM rows physically verified. | `quad-33/` | `../data/quad-33-bom.csv` |
-| Quad 303, 306, 44 | Planned; source documents are in the repository's `source-docs/` folder but guides are not written yet | — | — |
+| Quad 44 preamplifier | Draft recap by DADA kit (I, II, III by serial), Quad's erratic-switching fix, relay and volume fixes, unity-gain input option; not user- or bench-tested; no BOM rows physically verified. | `quad-44/` | `../data/quad-44-bom.csv` |
+| Quad 303, 306 | Planned; source documents are in the repository's `source-docs/` folder but guides are not written yet | — | — |
 
 If a user's model isn't supported yet, say so. You can still help with general practice and safety, but do not supply component values.
 
