@@ -5,11 +5,11 @@
 | Model | Status | Folder | BOM |
 |---|---|---|---|
 | Quad 34 preamplifier | Draft restoration and phono coverage; not user- or bench-tested. No BOM rows have physical board verification yet; source disagreements are flagged. | `quad-34/` | `../data/quad-34-bom.csv` |
-| Quad 33, 303, 405 / 405-2, 306, 606 | Planned; local research copies exist for these models, but are not reviewed support material | — | — |
+| Quad 33, 303, 405 / 405-2, 306, 606 | Planned; source documents are in `source-docs/` but guides are not written yet | — | — |
 
 If a user's model isn't supported yet, say so. You can still help with general practice and safety, but do not supply component values.
 
-The current QUAD 33 and 303 source inventory is in [`../../source-docs/research-register.md`](../../source-docs/research-register.md). Those PDFs are not included in this skill bundle, and their presence in a local checkout does not make either model supported.
+The current QUAD 33 and 303 source inventory is in [`../../source-docs/research-register.md`](../../source-docs/research-register.md). Those PDFs are not included in this skill bundle, and having the documents does not make a model supported until its guide is written.
 
 ## Quad 34 files
 
@@ -28,20 +28,20 @@ The current QUAD 33 and 303 source inventory is in [`../../source-docs/research-
 
 ## Source documents
 
-| ID | Title | Author / origin | Date | Repository copy or original source | Redistribution note |
-|---|---|---|---|---|---|
-| S1 | Quad 34 circuit diagram M12746 issue 5 (PCB M12730 issue 6) | Quad Electroacoustics | — | `source-docs/quad-34/Quad 34 Service Data diagram issue 5.pdf` | Tracked in public repo; redistribution permission not recorded |
-| S2 | Converting the Phono input of the Quad 34 to a 300 (or 500) mV line input | Author not stated | — | `source-docs/quad-34/Quad 34 -adapt Phono module for Line Input.pdf` | Tracked in public repo; author/permission not recorded |
-| S3 | Quad 34 DIY illustrated guidelines v3.7 | DADA Electronics (Stefaan & Joost) | May 2022 | `source-docs/quad-34/Quad_34_Revision_version_3.7.pdf`; [DADA mirror](https://dadaelectronics.com.au/doc/Audio/dadaelectronics.eu/downloads/Dada%20Service%20Kit%20Instructions/Quad_34_Revision_version_3.7.pdf) | Tracked in public repo; redistribution permission not recorded |
-| S4 | Quad 34 RIAA — Moving Coil disc module modification | K. Snook | June 2007 | `source-docs/quad-34/QUAD-34-MC-input-mods.pdf` | Tracked in public repo; redistribution permission not recorded |
-| S5 | QUAD 34 Pre Amplifier Modification and Information | K. Snook | Updated 18 Mar 2026 | [keith-snook.info](https://keith-snook.info/quad-34-pre-amplifier.html) | Web source; no local copy |
-| S6 | Quad 34 circuit diagram M12746 issue 3 — from S/N 8001, PCB M12730 issue 5 | Quad Electroacoustics | — | `source-docs/quad-34/Quad-34-MK2-Schematic.pdf` | Tracked in public repo; redistribution permission not recorded |
-| S7 | QUAD 34 schematic, redrawn — circuit M12746 issue 2 onward, serial 6001–8000, plus input-buffer information | K. Snook | — | [keith-snook.info PDF](https://keith-snook.info/schematic/QUAD-34-Schematic.pdf) | Web source; no local copy |
-| S8 | **Quad 34 service data**: circuit description, fault finding, test procedure, modifications, parts list, and three circuit diagrams | Quad Electroacoustics | — | `source-docs/quad-34/quad_34_service_data_manual[1582].pdf`; [online copy](https://www.meridian-audio.info/public/quad_34_service_data_manual%5B1582%5D.pdf) | Tracked in public repo; redistribution permission not recorded |
-| S9 | RATA upgrade data sheet — Quad 34 preamp upgrade (two pages) | Russ Andrews Turntable Accessories | January 1993 | `source-docs/quad-34/QUAD 34 (1 of 2) upgrade data sheet.jpg`; `source-docs/quad-34/QUAD 34 (2 of 2) upgrade data sheet.jpg` | Tracked in public repo; redistribution permission not recorded |
-| S10 | Phono input module M12728 issue 1, solder side, annotated | FRO | — | `quad-upgrade/reference/quad-34/images/phono-module-silkscreen-M12728.png` | CC0, as credited by the source |
-| S11 | Quad 34 Control Unit Instruction Book (grey, RCA version) | Quad Electroacoustics | — | `source-docs/quad-34/Quad34UserManualII.pdf`; [DADA mirror](https://dadaelectronics.com.au/doc/Audio/Quad/Quad%2034/Quad34UserManualII.pdf) | Tracked in public repo; redistribution permission not recorded |
-| O1 | Maintainer's own units (Quad 34, late grey) | Physical inspection | 2026 | No repository copy | Maintainer observation; record unit/serial and date for each verification |
+| ID | Title | Author / origin | Date | Repository copy or original source |
+|---|---|---|---|---|
+| S1 | Quad 34 circuit diagram M12746 issue 5 (PCB M12730 issue 6) | Quad Electroacoustics | — | `source-docs/quad-34/Quad 34 Service Data diagram issue 5.pdf` |
+| S2 | Converting the Phono input of the Quad 34 to a 300 (or 500) mV line input | Author not stated | — | `source-docs/quad-34/Quad 34 -adapt Phono module for Line Input.pdf` |
+| S3 | Quad 34 DIY illustrated guidelines v3.7 | DADA Electronics (Stefaan & Joost) | May 2022 | `source-docs/quad-34/Quad_34_Revision_version_3.7.pdf`; [DADA mirror](https://dadaelectronics.com.au/doc/Audio/dadaelectronics.eu/downloads/Dada%20Service%20Kit%20Instructions/Quad_34_Revision_version_3.7.pdf) |
+| S4 | Quad 34 RIAA — Moving Coil disc module modification | K. Snook | June 2007 | `source-docs/quad-34/QUAD-34-MC-input-mods.pdf` |
+| S5 | QUAD 34 Pre Amplifier Modification and Information | K. Snook | Updated 18 Mar 2026 | [keith-snook.info](https://keith-snook.info/quad-34-pre-amplifier.html) |
+| S6 | Quad 34 circuit diagram M12746 issue 3 — from S/N 8001, PCB M12730 issue 5 | Quad Electroacoustics | — | `source-docs/quad-34/Quad-34-MK2-Schematic.pdf` |
+| S7 | QUAD 34 schematic, redrawn — circuit M12746 issue 2 onward, serial 6001–8000, plus input-buffer information | K. Snook | — | [keith-snook.info PDF](https://keith-snook.info/schematic/QUAD-34-Schematic.pdf) |
+| S8 | **Quad 34 service data**: circuit description, fault finding, test procedure, modifications, parts list, and three circuit diagrams | Quad Electroacoustics | — | `source-docs/quad-34/quad_34_service_data_manual[1582].pdf`; [online copy](https://www.meridian-audio.info/public/quad_34_service_data_manual%5B1582%5D.pdf) |
+| S9 | RATA upgrade data sheet — Quad 34 preamp upgrade (two pages) | Russ Andrews Turntable Accessories | January 1993 | `source-docs/quad-34/QUAD 34 (1 of 2) upgrade data sheet.jpg`; `source-docs/quad-34/QUAD 34 (2 of 2) upgrade data sheet.jpg` |
+| S10 | Phono input module M12728 issue 1, solder side, annotated (CC0) | FRO | — | `quad-upgrade/reference/quad-34/images/phono-module-silkscreen-M12728.png` |
+| S11 | Quad 34 Control Unit Instruction Book (grey, RCA version) | Quad Electroacoustics | — | `source-docs/quad-34/Quad34UserManualII.pdf`; [DADA mirror](https://dadaelectronics.com.au/doc/Audio/Quad/Quad%2034/Quad34UserManualII.pdf) |
+| O1 | Maintainer's own units (Quad 34, late grey) | Physical inspection | 2026 | No repository copy |
 
 Note: S1 (issue 5) and S6 (issue 3) depict later circuits from serial 8001. S8 contains Quad's diagrams for up to S/N 6000, 6001–8000, and from 8001. S8 is the primary reference; where another source disagrees, show the disagreement and ask for technician-confirmed board information. Do not ask an inexperienced user to open the unit to inspect it. The S6 print of diagram issue 3 omits C84, while the S8 parts list and modifications page state C84 was added at PCB issue 5 / S/N 8001. DADA's guide describes one kit for serial 1–8000 and another for 8000 onwards, overlapping at exactly 8000; have a competent restorer confirm the fitted board before choosing a kit or ordering. The S8 manual is a scan in this repository, so page images may need visual inspection rather than text search. Current source IDs S1–S11 are specific to the Quad 34; prefix IDs for future models (for example `Q33-S01` and `Q303-S01`).
 ## Credits

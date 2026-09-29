@@ -126,8 +126,8 @@ else:
 source_issue = ROOT / ".github" / "ISSUE_TEMPLATE" / "new-source.md"
 if not source_issue.is_file():
     problem(".github/ISSUE_TEMPLATE/new-source.md is missing")
-elif "Licence or permission to redistribute" not in source_issue.read_text(encoding="utf-8"):
-    problem(".github/ISSUE_TEMPLATE/new-source.md: missing source-rights prompt")
+elif "Original URL or where it came from" not in source_issue.read_text(encoding="utf-8"):
+    problem(".github/ISSUE_TEMPLATE/new-source.md: missing source-origin prompt")
 
 # 3. All cited source IDs should be declared in the reference index or model registers.
 source_id = re.compile(r"(?<![A-Za-z0-9])(?:[A-Z][A-Z0-9]*-)?(?:S|O)\d{1,3}\b")

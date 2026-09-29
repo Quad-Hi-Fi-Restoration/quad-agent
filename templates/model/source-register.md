@@ -1,12 +1,10 @@
 # [MODEL] — source register
 
-Assign each source a stable, model-prefixed ID (for example `Q33-S01`). Cite IDs plus exact page/figure/section in the reference files and BOM. Keep rights and availability separate from technical reliability.
+Assign each source a stable, model-prefixed ID (for example `Q33-S01`). Cite IDs plus exact page/figure/section in the reference files and BOM.
 
-| ID | Title | Author / publisher | Revision / date | Original URL or archive | Local copy | Pages used | Technical role | Licence / permission to redistribute | Notes |
-|---|---|---|---|---|---|---|---|---|---|
-| [MODEL]-S01 | [exact title] | [author] | [date/revision] | [URL] | [inbox path or none] | [pages] | [factory / service / modification / community] | [licence, permission, or unknown] | [legibility, conflicts, provenance] |
-
-Do not treat "found online" as a redistribution licence. Keep uncleared copies in `source-docs/inbox/<model>/` and out of Git.
+| ID | Title | Author / publisher | Revision / date | Original URL or archive | Local copy | Pages used | Technical role | Notes |
+|---|---|---|---|---|---|---|---|---|
+| [MODEL]-S01 | [exact title] | [author] | [date/revision] | [URL] | [source-docs path or none] | [pages] | [factory / service / modification / community] | [legibility, conflicts] |
 
 ## Physical board observations
 

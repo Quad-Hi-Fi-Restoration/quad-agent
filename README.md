@@ -75,7 +75,7 @@ A static, GitHub Pages-ready landing page lives in [`docs/`](docs/). It introduc
 
 The Quad 34 data is distilled from Quad's own service data and diagrams, plus upgrade guides by DADA Electronics, Keith Snook, Russ Andrews (RATA) and members of the Quad community. The full list, with what each source covers, is in [`quad-upgrade/reference/index.md`](quad-upgrade/reference/index.md). The QUAD 34 parts remain provisional until checked against physical boards; treat the list as a research aid, not a confirmed shopping order.
 
-Some source documents are tracked in [`source-docs/`](source-docs/) and therefore are publicly available in this repository. Their presence here does not change their authors' rights or establish permission to redistribute them. See the source index for the current rights notes. New research files should go in the ignored local inbox described in `source-docs/README.md` until redistribution permission is clear.
+The source documents themselves — service data, circuit diagrams, DADA kit instructions and community notes for each model — are in [`source-docs/`](source-docs/).
 
 ---
 
@@ -87,7 +87,7 @@ quad-upgrade/          the skill (this is what goes in the zip)
   reference/           safety, general practice, per-model files
   data/                component BOMs, shopping lists, suppliers
 scripts/               checks, shopping list builder, packager
-source-docs/           curated source references; local research inbox is git-ignored
+source-docs/           source documents, one folder per model
 templates/             starter files for adding another QUAD model
 TESTING.md             how to test the skill
 CONTRIBUTING.md        how to add data and new models
@@ -100,7 +100,7 @@ CONTRIBUTING.md        how to add data and new models
 The most useful contributions are:
 
 - **Board checks** — a competent restorer confirming BOM rows against a real unit (use the *Board verification* issue template).
-- **Source documents** — service data, factory bulletins or upgrade sheets we don't have (use the *New source document* template; tell us if you have permission to share).
+- **Source documents** — service data, factory bulletins or upgrade sheets we don't have (use the *New source document* template).
 - **New models** — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Credits
