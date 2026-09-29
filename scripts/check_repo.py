@@ -222,6 +222,12 @@ result = subprocess.run([sys.executable, str(builder), "--check"],
 if result.returncode:
     problem("shopping-list check failed:\n" + (result.stdout + result.stderr).strip())
 
+# 6. Generated model pages on the project site must match the repository.
+site = subprocess.run([sys.executable, str(ROOT / "scripts" / "build_site.py"), "--check"],
+                      capture_output=True, text=True, cwd=ROOT)
+if site.returncode:
+    problem("site check failed:\n" + (site.stdout + site.stderr).strip())
+
 if problems:
     print("PROBLEMS FOUND:")
     for item in problems:
