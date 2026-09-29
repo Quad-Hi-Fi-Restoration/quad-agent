@@ -2,6 +2,20 @@
 
 This is a dependency-free static landing page, ready for GitHub Pages. It follows the archive pattern of an introduction, model guide cards, provenance and community contribution links. Model status and safety wording should stay aligned with the repository README and reference files.
 
+## Model pages
+
+`docs/models/<model>.html` are generated from the skill by `scripts/build_site.py`: the introduction and identification table come from each model's `overview.md`, the document list from its `source-register.md`, and the parts tables from its BOM. Do not edit them by hand. After changing a guide, BOM or source register, rebuild them from the repository root:
+
+```
+# Windows PowerShell
+py -3 scripts/build_site.py
+
+# macOS or Linux
+python3 scripts/build_site.py
+```
+
+`scripts/check_repo.py` fails if a page is out of date.
+
 ## Preview locally
 
 From the repository root, run the command for your system:

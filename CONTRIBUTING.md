@@ -35,7 +35,7 @@ Only a person competent to work safely inside mains equipment should inspect a p
 2. Create `quad-upgrade/data/<model>-bom.csv` from `templates/model/bom-template.csv`; retain the column names so the shopping-list builder can process it.
 3. Add a source entry to the model's `source-register.md` for every technical claim, with its author and where it came from.
 4. Add the model and folder map to `quad-upgrade/reference/index.md`; keep the model marked planned until its sources and references are reviewed.
-5. Run the shopping-list builder for your model and `check_repo.py` using the commands for your platform above.
+5. Run the shopping-list builder for your model, `scripts/build_site.py` to regenerate the website pages, and `check_repo.py`, using the commands for your platform above. Add a card for the model in `docs/index.html`.
 
 ## Credits
 
