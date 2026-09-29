@@ -9,7 +9,8 @@ Give any AI assistant access to this skill folder and it can use it as a careful
 | **Quad 34** preamplifier | Draft coverage for recap, MM/MC disc modules, phono mods, disc-to-line conversion, output level, balance repair, and fault-finding. **Not yet tested with users or on a bench; no BOM rows have physical board verification yet.** |
 | **Quad 606** power amplifier | Draft coverage for board recap, reservoir capacitors, MK I input update and input sensitivity (DADA kit; also 707 / 909). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
 | **Quad 405 / 405-2** power amplifier | Draft coverage for board recap, op-amp and zener upgrade, input sensitivity, reservoir capacitors, rewiring and output protection (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
-| Quad 33, 303, 306, 44 | Source documents collected; guides planned — contributions welcome |
+| **Quad 33** control unit | Draft coverage for recap of all boards, 16 V supply modification, gain reduction and phono options (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
+| Quad 303, 306, 44 | Source documents collected; guides planned — contributions welcome |
 
 ---
 

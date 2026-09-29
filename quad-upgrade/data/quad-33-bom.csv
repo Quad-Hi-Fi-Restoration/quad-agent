@@ -1,0 +1,27 @@
+model,variant,board,ref,function,original_value,original_type,voltage,replacement_value,replacement_type,replacement_part,supplier,supplier_sku,qty,category,status,source,notes
+quad-33,all,psu,R500;R501,Supply feed,120R 10%,resistor,,27R,metal film,,DADA,33 kit,2,modification-16v-supply,unverified,Q33-S01 p3; Q33-S02 p7,Part of the 16V supply modification
+quad-33,all,psu,MR500,Supply zener,LR120C 12V,zener,,16V 1.3W,zener,,DADA,33 kit,1,modification-16v-supply,unverified,Q33-S01 p3; Q33-S02 p7,Cathode towards middle of board
+quad-33,all,psu,MR501;MR502,Rectifiers,IS920,diode,,1N400x,diode,,DADA,33 kit,2,modification-16v-supply,unverified,Q33-S01 p3; Q33-S02 p7,Cathode towards middle of board
+quad-33,all,psu,C500;C501,Reservoir,1000µF,electrolytic,25V,680-2200µF 25V,electrolytic radial,,DADA,33 kit,2,modification-16v-supply,unverified,Q33-S01 p3; Q33-S02 p7,
+quad-33,all,psu,C502,Reservoir,400µF,electrolytic,25V,1000-2200µF 25V,electrolytic axial or radial,,DADA,33 kit,1,modification-16v-supply,unverified,Q33-S01 p3; Q33-S02 p7,
+quad-33,all,psu,C503;C504;MR503;R502,Pin 4 switching supply,see notes,,,remove,,,DADA,33 kit,0,modification-16v-supply,unverified,Q33-S01 p3; Q33-S02 p7,"MR503 in Quad list; C503, C504, R502 not listed. Quad dropped this from S/N 80000 (Q33-S02 p5)."
+quad-33,all,pre-amp,R300,Pre-amp supply feed,560R,resistor,,2K7,carbon,,DADA,33 kit,1,modification-16v-supply,unverified,Q33-S01 p7; Q33-S02 p7,Only with the 16V supply modification
+quad-33,all,filter,C5;C6,Balance/decoupling,100µF,electrolytic,6.3V,100µF,electrolytic,,DADA,33 kit,2,restoration,unverified,Q33-S01 p4; Q33-S02 p6,DADA: 10V or more; confirm rating for the 16V supply
+quad-33,all,amp,C401,Amp board (per board),2.2µF,electrolytic,63V,2.2 or 4.7µF,electrolytic radial,,DADA,33 kit,2,restoration,unverified,Q33-S01 p5; Q33-S02 p6,DADA: 10V or more; confirm rating for the 16V supply. Two amp boards.
+quad-33,all,amp,C405,Amp board (per board),47µF,electrolytic,16V,"47, 68 or 100µF",electrolytic radial,,DADA,33 kit,2,restoration,unverified,Q33-S01 p5; Q33-S02 p6,DADA: 10V or more; confirm rating for the 16V supply
+quad-33,all,amp,C406,Amp board (per board),10µF,electrolytic,63V,22µF,electrolytic radial,,DADA,33 kit,2,restoration,unverified,Q33-S01 p5; Q33-S02 p6,DADA: 10V or more; confirm rating for the 16V supply
+quad-33,all,amp,TR400;TR401;TR402,Amp transistors,E5270,transistor,,BC550,transistor,,DADA,33 kit,6,restoration,unverified,Q33-S01 p5; Q33-S02 p6,Check pinout against the board
+quad-33,all,pre-amp,R305;R308,Low-noise resistors,82K 5%,resistor,,82K 1%,metal film,,DADA,33 kit,2,restoration,unverified,Q33-S01 p7; Q33-S02 p7,
+quad-33,all,pre-amp,C300;C303;C307;C308,Pre-amp,22µF,electrolytic,40V,47 or 68µF,electrolytic radial,,DADA,33 kit,4,restoration,unverified,Q33-S01 p7; Q33-S02 p7,DADA: 10V or more; confirm rating for the 16V supply
+quad-33,all,pre-amp,C311;C312,Pre-amp,47µF,electrolytic,16V,47 or 68µF,electrolytic radial,,DADA,33 kit,2,restoration,unverified,Q33-S01 p7; Q33-S02 p7,DADA: 10V or more; confirm rating for the 16V supply
+quad-33,all,pre-amp,C301;C302,Pre-amp,100µF,electrolytic,6.3V,100µF,electrolytic radial,,DADA,33 kit,2,restoration,unverified,Q33-S01 p7; Q33-S02 p7,DADA: 10V or more; confirm rating for the 16V supply
+quad-33,all,pre-amp,C313,Pre-amp supply,100µF,electrolytic,16V,220 or 470µF 16V,electrolytic radial,,DADA,33 kit,1,restoration,unverified,Q33-S01 p7; Q33-S02 p7,
+quad-33,all,pre-amp,TR300;TR301;TR302;TR303,Pre-amp transistors,E5270,transistor,,BC550,transistor,,DADA,33 kit,4,restoration,unverified,Q33-S01 p7; Q33-S02 p7,Check pinout against the board
+quad-33,all,tape,R203;R204;R215;R216,Tape adaptor,220K 5%,resistor,,220K 1%,metal film,,DADA,33 kit,4,restoration,unverified,Q33-S01 p9; Q33-S02 p7,
+quad-33,all,tape,C202;C203,Tape adaptor coupling,0.68µF (0.33µF early),capacitor,100V,2.2 or 4.7µF axial (+ towards TR200/TR201) or 2.2µF MKS/MKT,electrolytic or film,,DADA,33 kit,2,restoration,unverified,Q33-S01 p9; Q33-S02 p5; p7,Improves bass. Electrolytic + towards the transistors.
+quad-33,all,tape,TR200;TR201,Tape adaptor transistors,E5270,transistor,,BC550,transistor,,DADA,33 kit,2,restoration,unverified,Q33-S01 p9; Q33-S02 p7,Check pinout against the board
+quad-33,all,amp,R411,Gain (per amp board),1K8 2%,resistor,,1K,metal film,,DADA,33 kit,2,modification-gain-reduction,unverified,Q33-S01 p5; Q33-S02 p6,Optional. About 8dB less gain. Not if using Quad tuners or CD into Tape (Q33-S01 p5).
+quad-33,all,amp,R412,Gain (per amp board),"470R (printed '407', part R470RJ1)",resistor,,1K3,metal film,,DADA,33 kit,2,modification-gain-reduction,unverified,Q33-S01 p5; Q33-S02 p6,Optional; change with R411
+quad-33,all,disc-adaptor,R105;R106 (M1 position),Restore phono gain,470R,resistor,,560R,metal film,,DADA,33 kit,2,modification-phono-gain,unverified,Q33-S01 p8; Q33-S02 p6,Only if gain reduced and M1 already in use; otherwise move the adaptor to M1
+quad-33,all,disc-adaptor,R107;R108 (M1 position),Restore phono gain,220R 2%,resistor,,120R,metal film,,DADA,33 kit,2,modification-phono-gain,unverified,Q33-S01 p8; Q33-S02 p6,As above
+quad-33,all,disc-adaptor,R101;R102;R103;R104,MM cartridge loading,68K,resistor,,47K + 180pF in parallel,metal film + capacitor,,any,,4,modification-mm-loading,unverified,Q33-S01 p8; Q33-S02 p6,Optional; not in DADA kit
