@@ -76,6 +76,10 @@ h1 { max-width: 620px; margin-bottom: 20px; font-size: clamp(44px, 6vw, 70px); l
 h2 { margin-bottom: 0; font-size: clamp(32px, 4.3vw, 46px); line-height: 1.12; }
 .section-aside { max-width: 310px; margin: 0 0 4px; color: var(--muted); font-size: 12px; }
 .model-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.model-grid-four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.model-grid-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.model-group { margin: 34px 0 14px; color: #6c777b; font-size: 11px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.model-group:first-of-type { margin-top: 0; }
 .model-card { min-height: 330px; padding: 21px; display: flex; flex-direction: column; align-items: flex-start; background: var(--white); border: 1px solid #e1e4e2; border-radius: 4px; }
 .model-card-featured { border-top: 3px solid var(--blue); padding-top: 19px; }
 .card-topline { width: 100%; display: flex; align-items: center; justify-content: space-between; }
@@ -131,7 +135,7 @@ h2 { margin-bottom: 0; font-size: clamp(32px, 4.3vw, 46px); line-height: 1.12; }
   .hero { grid-template-columns: 1fr  minmax(280px, .8fr); gap: 34px; padding-block: 58px 48px; }
   .archive-panel { min-height: 330px; padding: 18px; }
   .model-grid, .principle-grid { grid-template-columns: 1fr 1fr; }
-  .model-card:last-child, .principle-card:last-child { grid-column: 1 / -1; }
+  .model-grid .model-card:last-child:nth-child(odd), .principle-card:last-child { grid-column: 1 / -1; }
   .model-card { min-height: 300px; }
   .how-inner { gap: 38px; }
 }
@@ -152,7 +156,7 @@ h2 { margin-bottom: 0; font-size: clamp(32px, 4.3vw, 46px); line-height: 1.12; }
   .section-heading { display: block; }
   .section-aside { margin-top: 12px; }
   .model-grid, .principle-grid { grid-template-columns: 1fr; }
-  .model-card:last-child, .principle-card:last-child { grid-column: auto; }
+  .model-grid .model-card:last-child:nth-child(odd), .principle-card:last-child { grid-column: auto; }
   .model-card { min-height: 0; }
   .card-caveat { margin-top: 4px; }
   .how-inner, .community-inner { grid-template-columns: 1fr; gap: 32px; padding-block: 50px; }

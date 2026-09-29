@@ -17,6 +17,8 @@ Now supported; sources are registered in `quad-upgrade/reference/quad-33/source-
 
 ## QUAD 303
 
+Now supported (limited); sources are registered in `quad-upgrade/reference/quad-303/source-register.md`. The inventory below is kept for history.
+
 | ID | File | What it appears to be | Review notes | Origin |
 |---|---|---|---|---|
 | Q303-S01 | `quad-303/303 Output Cap Frequency Responce.pdf` | One-page response comparison, apparently generated with LibreOffice Calc | Author and assumptions are not identified in the PDF metadata. Treat all results as unverified calculations until the circuit model, load assumptions and method are documented. | Author not identified |
@@ -28,4 +30,4 @@ Now supported; sources are registered in `quad-upgrade/reference/quad-33/source-
 ## Current use boundary
 
 
-Supported models are listed in `quad-upgrade/reference/index.md`. Models listed here remain unsupported until their source versions, serial/revision applicability, component claims and safety procedures have been reviewed. Do not cite them as supported skill sources or give component values or repair steps for these models based only on this inventory.
+Supported models are listed in `quad-upgrade/reference/index.md`. Any model listed here without a guide remains unsupported until their source versions, serial/revision applicability, component claims and safety procedures have been reviewed. Do not cite them as supported skill sources or give component values or repair steps for these models based only on this inventory.

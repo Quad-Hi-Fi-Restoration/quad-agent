@@ -1,0 +1,22 @@
+model,variant,board,ref,function,original_value,original_type,voltage,replacement_value,replacement_type,replacement_part,supplier,supplier_sku,qty,category,status,source,notes
+quad-303,all,general,C1;C2,Output capacitors,2000µF,electrolytic,100V,"4700, 6800 or 10000µF, 63V or 100V",electrolytic,,DADA,303 kit,2,restoration,unverified,Q303-S06 p3; p5; Q303-S01 p11,Technician work. Larger than original: extends bass (circuit change). Wiring colours in amplifier.md.
+quad-303,all,general,C3,Supply reservoir,2000µF (DADA: 2 x 2000µF in parallel),electrolytic,100V,4700µF 100V,electrolytic,,DADA,303 kit,1,restoration,unverified,Q303-S06 p3; p5; Q303-S01 p11,Technician work. Quad lists one C3; DADA describes two in parallel - count what is fitted.
+quad-303,all,psu,R200;R201;R204,Regulator,10K 10%,resistor,,10K 1% 0.5W,metal film,,DADA,303 kit,3,restoration,unverified,Q303-S06 p3; p6; Q303-S01 p11,
+quad-303,all,psu,R202,Regulator,8K2 5% (6K8 early),resistor,,8K2 1% 0.5W,metal film,,DADA,303 kit,1,restoration,unverified,Q303-S06 p3; p6; Q303-S01 p9; p11,
+quad-303,all,psu,R203,Regulator,2K2 5%,resistor,,2K2 1% 0.5W,metal film,,DADA,303 kit,1,restoration,unverified,Q303-S06 p3; p6; Q303-S01 p11,
+quad-303,all,psu,R205,Regulator,4K7 10%,resistor,,4K7 1% 0.5W,metal film,,DADA,303 kit,1,restoration,unverified,Q303-S06 p3; p6; Q303-S01 p11,
+quad-303,all,psu,R206,Regulator,10R 10%,resistor,,10R 1% 0.5W,metal film,,DADA,303 kit,1,restoration,unverified,Q303-S06 p4; p6; Q303-S01 p11,
+quad-303,all,psu,R207,Regulator,68R 10%,resistor,,68R 1% 0.5W,metal film,,DADA,303 kit,1,restoration,unverified,Q303-S06 p4; p6; Q303-S01 p11,
+quad-303,all,psu,MR200,Regulator start-up diode,1S920,diode,,"1N4004, 1N4005 or 1N4006",diode,,DADA,303 kit,1,restoration,unverified,Q303-S06 p4; p6; Q303-S01 p11,Cathode towards middle of board
+quad-303,all,psu,MR201,Regulator reference zener,1S2120 or ZE12V7 (12V),zener,,12V 1.3W,zener,,DADA,303 kit,1,restoration,unverified,Q303-S06 p4; p6; Q303-S01 p11,Cathode towards middle of board
+quad-303,all,psu,RV200,Supply voltage trimmer,4K7,trimmer,,4K7,trimmer,,DADA,303 kit,1,restoration,unverified,Q303-S06 p4; p6; Q303-S01 p11,Leave in middle position until calibration
+quad-303,all,driver,C100,Input coupling,0.64µF (Mullard C426),capacitor,,1µF 10mm pitch,film,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7; Q303-S01 p10,
+quad-303,all,driver,C101,Driver board,300µF,electrolytic,10V,470µF >=16V,electrolytic,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7; Q303-S01 p10,+ towards the inside of the board
+quad-303,all,driver,C104,Driver board,12µF,electrolytic,50V,22µF >=25V,electrolytic,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7; Q303-S01 p10,+ towards the inside of the board
+quad-303,all,driver,C106,Driver board,50µF,electrolytic,50V,47µF >=25V,electrolytic,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7; Q303-S01 p10,+ towards the back of the board
+quad-303,all,driver,RV100,Centre-point trimmer,4K7,trimmer,,4K7,trimmer,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7; Q303-S01 p10,
+quad-303,<11500,driver,RV101,Quiescent current trimmer,not in the list read (earlier board),trimmer,,22K,trimmer,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7,Boards below S/N 11500 (version 9 or lower). DADA advises against revising boards older than version 9.
+quad-303,>=11500,driver,RV101,Quiescent current trimmer,2K2,trimmer,,2K2,trimmer,,DADA,303 kit,2,restoration,unverified,Q303-S06 p4; p7; Q303-S01 p10,
+quad-303,all,general,Mains indicator,Replace broken neon,neon,lamp,,red square LED + 12K 0.5W series resistor,LED,,DADA,303 kit,1,repair-mains-indicator,unverified,Q303-S06 p3; p5,Only if the neon is broken. Across the supply capacitor; long lead to +.
+quad-303,all,driver,R108,Input-stage feedback,22K,resistor,,"15K (0.733V), 10K (1.1V) or 6K8 (1.6V)",metal film,,any,,2,modification-input-sensitivity,unverified,Q303-S02 p1; Q303-S01 p10,Optional; change with matching C103
+quad-303,all,driver,C103,Input-stage feedback,100pF,ceramic (Erie AP),,"150pF (0.733V), 220pF (1.1V) or 330pF (1.6V)",capacitor,,any,,2,modification-input-sensitivity,unverified,Q303-S02 p1; Q303-S01 p10,Optional; change with matching R108
