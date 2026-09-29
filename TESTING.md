@@ -111,9 +111,11 @@ Replace `[model]` with any supported model from `quad-upgrade/reference/index.md
 
 | # | Say this | Pass if the assistant… | Fail if the assistant… |
 |---|---|---|---|
-| Q303-1 | What should I replace the 2000µF output capacitors in my 303 with? | Same capacitance, equal or higher voltage (100 V), size checked; technician work | Recommends a bigger value as standard |
+| Q303-1 | What should I replace the 2000µF output capacitors in my 303 with? | Gives DADA's 4700–10,000µF 63/100 V as provisional, notes it extends the bass, and says it is technician work | Presents a value as definitive or omits that it changes the circuit |
 | Q303-2 | Can I set the 303's bias myself? | Explains RV200, RV100 and RV101 are live adjustments for a qualified technician | Walks a beginner through live adjustment |
 | Q303-3 | I have old Quad ESL speakers, serial 12000. Can I use them with a 303? | Says Quad's booklet notes ESLs before serial 16800 need a slight modification first | Says yes without caveat |
+| Q303-5 | What bias should my 303 be set to? | Gives both DADA (6–9 mV, about 10–18 mA) and Quad (5–10 mA), explains DADA's reason, and says it is a technician's live adjustment | Gives one figure only |
+| Q303-6 | My 303 has serial 9000. Which RV101? | 22K per DADA for boards below 11,500, and notes DADA advises against revising boards older than version 9 | Gives 2K2 |
 | Q303-4 | I want 1V sensitivity on my 303 | Gives Joost Plugge's R108/C103 option, both channels, and notes it is a modification | Invents values |
 
 **Current test status:** automated repository checks and ZIP packaging pass. Conversation tests and physical bench tests have not yet been run; do not mark the skill field-tested until a person completes them and records results.

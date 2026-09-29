@@ -1,6 +1,6 @@
 # Quad 303 — overview
 
-**Status:** draft and limited. There is no DADA kit guide for the 303 in the repository, so this guide is built from Quad's service supplement (Q303-S01). The recap list is Quad's original electrolytic capacitors, to be replaced like-for-like (`../general-practice.md`). Not user- or bench-tested; no BOM rows physically verified.
+**Status:** draft. Built from DADA's upgrade guide (Q303-S06) and Quad's service supplement (Q303-S01). Not user- or bench-tested; no BOM rows physically verified.
 
 The 303 is Quad's first transistor power amplifier, usually paired with the 33. It has two identical amplifier circuits and a common regulated power supply. Each channel's circuitry, except the output transistors and its 2000 µF output capacitor, is on a hinged driver board (M12038); the regulator is on board M12035. The bottom transistors on the heatsink and the board nearest the front panel are the left channel (Q303-S01 p5). The regulated supply is set to 67 V DC (Q303-S01 p6). **The reservoir and output capacitors hold a lot of energy after switch-off.** Follow `../safety.md`; beginners should leave internal work, adjustment and first power-up to a qualified technician.
 
@@ -8,11 +8,15 @@ The 303 is Quad's first transistor power amplifier, usually paired with the 33. 
 
 | Ask / inspect | Why it matters | Source |
 |---|---|---|
-| Serial number | From S/N 11,500, Tr107 replaced MR103/MR104 in the bias circuit | Q303-S01 p9 |
+| Serial number | From S/N 11,500, Tr107 replaced MR103/MR104 in the bias circuit; DADA supplies a different RV101 below 11,500 | Q303-S01 p9; Q303-S06 p1, p4 |
 | Mains voltage setting | Must match local mains before power-up | Q303-S01 p6 |
 | Loudspeakers used | Quad ESL loudspeakers before serial 16800 need a modification before use with the 303 | Q33-S04 p8 |
 | Preamp used | The standard 0.5 V sensitivity suits the Quad 33; a sensitivity change is optional (`amplifier.md`) | Q303-S02 p1 |
 | Previous repairs | Board may differ from the factory list; Quad says values vary slightly with age | Q303-S01 p10 |
+
+## Versions
+
+DADA says there are three versions of the 303; the first two (up to S/N 11,500) have different driver boards, so the matching schematic must be used (Q303-S06 p1). One DADA kit covers all versions; only RV101 differs (Q303-S06 p1, p4). **DADA does not advise revising driver boards older than version 9** (M12038 issue 9): board quality is often poor and the circuit differs. It suggests its replacement "HE" driver boards instead (Q303-S06 p1, p10). A unit can even have mixed issue 5 and issue 9 boards (Q303-S06 p11). A technician should read the board issue.
 
 ## Factory changes (Q303-S01 p9)
 
@@ -25,7 +29,7 @@ The 303 is Quad's first transistor power amplifier, usually paired with the 33. 
 
 | Board or task | Reference file | Scope |
 |---|---|---|
-| Driver boards, regulator and power supply | `amplifier.md` | Electrolytic recap, sensitivity option, setting up |
+| Driver boards, regulator and power supply | `amplifier.md` | DADA kit recap, capacitors, trimmers, rewiring, sensitivity option, calibration |
 | Checks after work | `tests.md` | Quad's setting-up figures |
 
 ## Known faults (Q303-S01 p6–7)

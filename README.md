@@ -12,7 +12,7 @@ Give any AI assistant access to this skill folder and it can use it as a careful
 | **Quad 33** control unit | Draft coverage for recap of all boards, 16 V supply modification, gain reduction and phono options (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
 | **Quad 44** preamplifier | Draft coverage for recap by serial range (DADA kits I–III), Quad's erratic-switching fix, relay, volume and input-gain options. **Not yet tested with users or on a bench; no BOM rows physically verified.** |
 | **Quad 306** power amplifier | Draft coverage for recap, input/feedback update, sensitivity option and reservoir capacitors (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
-| **Quad 303** power amplifier | Limited draft: like-for-like electrolytic recap from Quad's service supplement (no kit guide yet), sensitivity option and setting up. **Not yet tested with users or on a bench; no BOM rows physically verified.** |
+| **Quad 303** power amplifier | Draft coverage for DADA kit recap (capacitors, regulator, trimmers, rewiring), sensitivity option and calibration. **Not yet tested with users or on a bench; no BOM rows physically verified.** |
 
 ---
 
