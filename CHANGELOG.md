@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Quad 33 control unit: identification, factory changes, recap of power supply, filter, amp, pre-amp and adaptor boards, DADA's 16 V supply modification, gain reduction, phono gain and MM loading options, and checks after work. All data provisional.
+- Quad 405 and 405-2 power amplifier: identification, factory change history, board recap (op-amp, zeners, capacitors), zener decoupling, input sensitivity, reservoir capacitors, rewiring and output protection, and checks after work. All data provisional.
+- Quad 606 power amplifier (MK I / MK II; DADA kit also fits 707 / 909): identification, factory change history, board recap, zener decoupling, MK I input update, input sensitivity, reservoir capacitors, and checks after work. All data provisional.
+- Source documents for the Quad 33, 303, 306, 405, 44 and 606 added to `source-docs/`.
+- Shopping lists label named variants (e.g. `MKI`) without the word "serial".
+
 ## v0.1.0 — first public release
 
 - Quad 34 preamplifier: all serial ranges (up to 6000, 6001–8000, from 8001 incl. late RCA units).

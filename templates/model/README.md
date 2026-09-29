@@ -4,10 +4,10 @@ Use these files to start a new model. Copy `overview.md`, `source-register.md`, 
 
 ## Before writing repair instructions
 
-1. Inventory the sources in `source-register.md`. Give new source IDs a model prefix, such as `Q33-S01` or `Q303-S01`, so citations cannot be confused with the existing QUAD 34 IDs.
+1. Inventory the sources in `source-register.md`. Give new source IDs a model prefix, such as `Q33-S01` or `Q303-S01`, so citations cannot be confused with another model's IDs.
 2. Identify model revisions and serial-number boundaries from primary service documents. If documents disagree, record the conflict instead of choosing a value.
 3. Make an overview, a separate file for each distinct board/task, a test record, and a verification log. Only a person competent to work safely inside mains equipment may perform a physical board check; beginners must leave it to a qualified technician. Use `template` or `unverified` BOM status until a source or physical board supports a claim.
-4. Put research copies in `source-docs/inbox/<model>/`; do not add them to Git unless redistribution is permitted.
+4. Put source documents in `source-docs/quad-<model>/`.
 5. Add the model to `quad-upgrade/reference/index.md` and run the repository check.
 
 ## Files
@@ -17,4 +17,4 @@ Use these files to start a new model. Copy `overview.md`, `source-register.md`, 
 - `tests-template.md` — safe, source-cited checks after work.
 - `verification-log.md` — dated physical board observations; required before any BOM row can be marked verified.
 - `bom-template.csv` — exact column header required by the shopping-list builder.
-- `source-register.md` — source identity, citations, and rights record.
+- `source-register.md` — source identity and citations.
