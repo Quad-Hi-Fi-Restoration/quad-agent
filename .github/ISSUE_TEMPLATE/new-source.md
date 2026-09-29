@@ -7,8 +7,14 @@ labels: source
 
 **Model:**
 
-**Document title, author and date:**
+**Exact document title, author/publisher, edition and date:**
+
+**Original URL or where it came from:**
+
+**Relevant pages / model or serial range:**
 
 **What it covers:**
 
-**Can it be shared?** (Do not attach copyrighted manuals unless you have permission. A description and where to find it is enough.)
+**Licence or permission to redistribute:** (Do not attach copyrighted manuals unless you have permission. A description and where to find it is enough.)
+
+**Is it a text PDF, scanned PDF, or image?**

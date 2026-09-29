@@ -1,9 +1,11 @@
 # General practice
 
-This is general bench practice. Where a model's reference file or a cited source says something different, the model file wins.
+This is general bench practice for a competent restorer after the safety check in `safety.md`. Beginners should use these notes to understand the work and leave opening, soldering, internal measurements, and first power-up to a qualified technician. Follow model-specific sources for technical details. If a model reference, cited source, and the user's board disagree, stop and record the conflict; do not assume one is correct without evidence.
+
+Explain unfamiliar part names and specifications in plain language. See `glossary.md`; use only the entries needed for the current task.
 
 ## Before you start
-- Record a baseline: a listening note, a recording, or a measurement. Upgrades are easier to judge against something.
+- Record a baseline: a listening note or recording. A competent restorer can also record a documented measurement. Upgrades are easier to judge against something.
 - Photograph the board from above and at an angle so markings are readable.
 - Work in small groups of parts, or one at a time. Bag and label removed parts until the job is tested.
 

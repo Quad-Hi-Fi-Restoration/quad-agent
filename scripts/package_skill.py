@@ -1,6 +1,9 @@
-"""Zip the skill folder for upload to Claude (Settings > Capabilities > Skills).
+"""Package the portable skill folder as a zip bundle.
 
-Usage: python scripts/package_skill.py   ->  dist/quad-upgrade.zip
+Run from the repository root:
+  Windows: py -3 scripts/package_skill.py
+  macOS/Linux: python3 scripts/package_skill.py
+Output: dist/quad-upgrade.zip
 """
 import zipfile
 from pathlib import Path

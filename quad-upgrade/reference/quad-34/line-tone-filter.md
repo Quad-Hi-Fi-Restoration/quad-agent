@@ -1,10 +1,14 @@
 # Quad 34 — line stage, tone, filter and output
 
+> Internal repairs and modifications are for a competent restorer after the safety check in `../safety.md`. Several options below involve soldering or cutting PCB tracks; do not guide a beginner through them.
+
 ## Restoration
 Op-amps and electrolytics in this area are covered by the DADA kit — see `recap-kit.md`.
 
 ## Op-amp decoupling (S3 p7)
-If a low-frequency oscillation occurs (caused by long supply tracks), fit 100nF film or ceramic capacitors between pin 3 and pin 7, and between pin 3 and pin 4, of IC9 and IC10. That's two per op-amp. Pin 3 is already grounded there. Solder them on the copper side. Included in the ≥ 8000 kit.
+If a low-frequency oscillation occurs (which S3 attributes to long supply tracks), the DADA guide suggests fitting two 100nF film or ceramic capacitors per op-amp: one between pin 3 and pin 7, and one between pin 3 and pin 4, on IC9 and IC10. Pin 3 is already grounded there. The guide says to solder them on the copper side.
+
+This is a **conditional modification**, not a required recap part. DADA includes the parts in its kit labelled for serial numbers 8000 onwards, whose range overlaps the Quad boundary at 8000; the guide says the change may be useful in some cases on any serial. Diagnose the oscillation and identify the actual board before choosing it. See the separate `modification-opamp-decoupling` shopping-list section.
 
 ## Early-unit input values (S7, serial 6001–8000)
 

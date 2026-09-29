@@ -1,12 +1,14 @@
 # Quad 34 — overview
 
 ## Serial ranges
-Quad made three major circuit releases. For replacement purposes they fall into two groups (S3 p1):
+Quad made three major circuit releases. The recap BOM groups them into two parts lists: serial numbers 1–8000 and serial numbers 8001 onwards. Use the serial number as a starting point, then confirm the board itself because units may have been repaired or modified.
 
 | Group | Differences that matter here | Source |
 |---|---|---|
-| Serial 1 – 7999 | Op-amps IC3–IC6 present; no C84, no C89–C92 | S3 p2 |
-| Serial 8000 onwards | IC24–IC27 dual op-amps on line/tape inputs; C84; C89–C92 | S3 p2 |
+| Serial 1–8000 | Earlier parts list; no C84 or C89–C92 | S3 p2; S8 p21 |
+| Serial 8001 onwards | IC24–IC27 dual op-amps on line/tape inputs; C84; C89–C92 | S3 p2; S8 p21 |
+
+**Serial number 8000 is a boundary case in some kit descriptions.** The Quad change record in S8 places the later board changes at serial 8001. For a unit marked 8000, check the fitted board and parts before using a kit label or ordering from either list.
 
 Early units (below 8000) use single TL071 op-amps and no input buffers; zener diodes D3–D14 protect the CD4066 input switches. From serial 8001 input buffers were added (S5). Early units were built with 100µF 3V tantalum coupling capacitors, which S5 says don't leak; the track damage from leaking electrolytics is a later-model problem (S5).
 
@@ -16,7 +18,7 @@ Early units (below 8000) use single TL071 op-amps and no input buffers; zener di
 
 | Question | What it tells you | Source |
 |---|---|---|
-| Serial number | **Decides the parts list**: below 8000 or 8000 onwards | S3 p1–2 |
+| Serial number | **Starts the parts-list choice**: 1–8000 or 8001 onwards; confirm the board where sources/physical clues disagree | S3 p1–2; S8 p21 |
 | Finish and button colours | Early units: brown finish with brown/yellow buttons. Later units: grey | S5 |
 | Front LEDs | Early: 5mm red/green LEDs. Later: 3mm LEDs in grey or black plastic bezels | S5 |
 | Line inputs and output: DIN or RCA? | From 8001: DIN suggests diagram issue 3, RCA suggests issue 5. Late grey units have RCA inputs only, no DIN — expect the issue 5 layout, including C84 | S6, S1, O1 |
@@ -69,7 +71,7 @@ PCB legend: left-channel refs printed in white, right-channel in yellow. The sch
 Module identification: the MM module's panel reads "DISC 3mV 47K/220p" (S2 p2). The MC module input is 100µV (S1).
 
 ## Access
-Remove the lid of the power supply compartment and the protective plastic plate under the motherboard (S3 p3). The board is double-sided: use a good desoldering pump or station, and clip old parts on the component side before removing the leads (S3 p3).
+Internal access and soldering are for a competent restorer, after the safety check in `../safety.md`. The DADA guide describes removing the power-supply compartment lid and the protective plastic plate under the motherboard (S3 p3); this is not an instruction for an inexperienced user to open the unit. The board is double-sided and its pads can be damaged during desoldering.
 
 ## Known faults
 
@@ -79,7 +81,7 @@ Remove the lid of the power supply compartment and the protective plastic plate 
 | Transformer problems on units before S/N 2000 | Mechanical mounting | Replacement transformer with redundant tags — see `fault-finding.md` | S8 p11 |
 | D32 failure, particularly before S/N 6000 | R125 not fitted until iss 4 | See `fault-finding.md` | S8 p11, p21 |
 | Balance control faulty | Original pots no longer available | Replace with fixed resistors — see `line-tone-filter.md` | S3 p9 |
-| Low-frequency oscillation | Long supply tracks to op-amps | Add 100nF decoupling at IC9/IC10 | S3 p7 |
+| Low-frequency oscillation | Long supply tracks to op-amps | If confirmed, consider the conditional 100nF decoupling modification in `line-tone-filter.md` | S3 p7 |
 | MM input sounds lifeless vs other inputs | 220pF input capacitance too high with arm cable and modern MM cartridges | Reduce C1b/C2b to 47pF | S3 p10 |
 | PCB polarity markings wrong or missing | Factory | Follow `recap-kit.md` polarity table, not the PCB | S3 p4; S5 |
 | C77 leaking; small DC at output | C77 fitted reversed, following an incorrect PCB marking | Refit with negative towards output connector | S5 |

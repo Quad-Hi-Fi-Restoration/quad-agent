@@ -1,6 +1,6 @@
 # Quad 34 — tests after work
 
-Always follow `../safety.md` → First power-up before any of these. Where no tolerance is given by a source, have the user record what they measure; don't call a reading "fine" without a reference.
+All powered measurements and internal tests below are for a qualified technician. Follow `../safety.md` first. A beginner may record external symptoms after a technician has confirmed the unit is safe to use. Where no tolerance is given by a source, record the measurement; do not call it "fine" without a reference.
 
 ## Quad's own test procedure (S8 p14–20)
 Quad tests with a variac, signal generator, AC microvoltmeter, scope and an inverse RIAA network. Key figures:
@@ -19,9 +19,9 @@ Quad tests with a variac, signal generator, AC microvoltmeter, scope and an inve
 
 Disc test (S8 p17): drive through the inverse RIAA network (fig 18) at 4V p-p (100µV module), 8V p-p (200µV) or 22V p-p (3mV).
 
-Without this equipment, the rail checks and DC checks below are the minimum.
+These service-manual measurements require suitable equipment and competence. The following checks are not a beginner procedure and must not be presented as safe just because they use a multimeter.
 
-## Supply rails (S1, S2 excerpt)
+## Supply rails (technician-only powered measurements; S1, S2 excerpt)
 
 | Test point | Expected | Source |
 |---|---|---|
@@ -31,7 +31,7 @@ Without this equipment, the rail checks and DC checks below are the minimum.
 
 Tolerance: not stated in sources. Check the ±7.5V logic rails too (S8 p15).
 
-## Output
+## Output (powered measurements: technician only)
 - Standard output level 500mV RMS (S3 p6).
 - With a signal generator and scope, output voltage and input sensitivity can be measured; without them, no calibration is required (S3 p6).
 - DC at output terminals: should be 0V with the output capacitors C77/C78 fitted (S5). Keith found +11mV on one channel — the sign that C77 was fitted reversed. Measure each channel before connecting to a power amplifier.
@@ -39,9 +39,9 @@ Tolerance: not stated in sources. Check the ±7.5V logic rails too (S8 p15).
 - After an op-amp swap: if the user has a scope, check the output clips symmetrically at maximum output (S5).
 
 ## Disc-to-line conversion (S2 p2)
-Volume at zero, select Disc, raise one notch with a CD/AUX-level source connected. Should play without distortion or hum.
+After a qualified technician has completed the first-power checks and confirmed the unit is safe to use, this external listening check can be done by the owner: set the volume to zero, select Disc, connect a CD/AUX-level source and raise the volume one notch. It should play without distortion or hum. This is not an instruction for a beginner to modify, open or power up the unit after repair.
 
 ## Listening
-- Low volume first; both channels present and balanced.
+- Only listen after a qualified technician has confirmed the unit is safe to use. Start at low volume; both channels should be present and balanced.
 - No hum, crackle, oscillation or new thumps.
 - Compare with the baseline taken before work.

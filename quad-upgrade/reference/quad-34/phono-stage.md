@@ -1,6 +1,8 @@
 # Quad 34 — disc (phono) stage
 
-All values below are from the sources named. The disc module and RIAA stage values are identical in two Quad diagrams, issue 3 (S6) and issue 5 (S1), and Keith Snook's redrawn diagram for serials 6001–8000 (S7) shows the same values, so the originals are cross-checked from serial 6001 onwards. Serial 1–6000 is not yet covered by any source. Originals are read from S1; where only one source gives a value, treat it as provisional and check the user's board.
+> Internal module replacement and board work are for a competent restorer after the safety check in `../safety.md`. Do not ask a beginner to open the unit to identify the module; use the panel marking if it is already visible or ask a technician to inspect it.
+
+All values below are from the sources named. The disc module and RIAA stage values are identical in two Quad diagrams, issue 3 (S6) and issue 5 (S1), and Keith Snook's redrawn diagram for serials 6001–8000 (S7) shows the same values, so the originals are cross-checked from serial 6001 onwards. Serial 1–6000 is not yet covered by any source. Originals are read from S1; where only one source gives a value, treat it as provisional and have a qualified technician compare it with the fitted board before ordering.
 
 ## How it works (S1)
 Disc module (plug-in, MM or MC) → C18 (L) / C22 (R) 2.2µF → RIAA amplifier IC7 (L) / IC8 (R), TL071 on +8.6V / −9.4V rails, with a passive network around it → R41/C27/C26/R42 (L), R43/C29/C28/R44 (R) → IC22 disc/monitor switch.
@@ -50,7 +52,7 @@ First ask which module the user has. The MM panel reads "3mV 47K/220p" (S2 p2).
 | R21a / R23a | 6.8R | Feedback |
 | R22a / R24a | 1K1 | Feedback |
 
-Module supply on main board: R3 560R, R4 470R, D1, C10 100µ (positive side); R7 470R, R8 680R, D2, C11 100µ (negative side) (S1, S8). **D1/D2 conflict:** every diagram shows 5V2 zeners; the S8 parts list says 5V6. Read the part on the board.
+Module supply on main board: R3 560R, R4 470R, D1, C10 100µ (positive side); R7 470R, R8 680R, D2, C11 100µ (negative side) (S1, S8). **D1/D2 conflict:** every diagram shows 5V2 zeners; the S8 parts list says 5V6. Have a qualified technician confirm the fitted part before choosing a replacement; do not ask a beginner to open the unit to read it.
 
 ## RIAA amplifier on main board (S1)
 
