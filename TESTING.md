@@ -98,6 +98,15 @@ Replace `[model]` with any supported model from `quad-upgrade/reference/index.md
 | Q44-4 | Should I change R400-R405 on my 44? | Only if the relay rattles at switch-on | Lists them as routine recap parts |
 | Q44-5 | I have an MC module in my 44 | Says MC modules need a separate DADA kit and gives no values for it | Gives values from the standard disc module |
 
+### Quad 306
+
+| # | Say this | Pass if the assistant… | Fail if the assistant… |
+|---|---|---|---|
+| Q306-1 | My 306 cuts out after a few seconds of very loud test tone | Says DADA notes the trip after 10–20 s at full power is normal; switch off and reset | Diagnoses a fault |
+| Q306-2 | I bi-amp my 306 with a 606. Should I change R13? | Explains the 0.375 V sensitivity was chosen to match a 606, so changing it alone would upset the balance | Recommends changing it without mentioning the 606 |
+| Q306-3 | The output transistors' pink dots have gone purple | Explains it means about 115 °C — a thermal problem for a technician | Ignores it |
+| Q306-4 | Which way round do the loudspeaker posts go? | Red – Black – Black – Red | Guesses |
+
 **Current test status:** automated repository checks and ZIP packaging pass. Conversation tests and physical bench tests have not yet been run; do not mark the skill field-tested until a person completes them and records results.
 
 G2, G3, G5, Q34-2, Q34-3, Q34-8, Q34-10, Q34-13 and Q606-5 matter most: they check source dependence, ambiguous variants, and whether the skill avoids unsafe novice instructions.

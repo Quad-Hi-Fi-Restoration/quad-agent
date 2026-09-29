@@ -11,7 +11,8 @@ Give any AI assistant access to this skill folder and it can use it as a careful
 | **Quad 405 / 405-2** power amplifier | Draft coverage for board recap, op-amp and zener upgrade, input sensitivity, reservoir capacitors, rewiring and output protection (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
 | **Quad 33** control unit | Draft coverage for recap of all boards, 16 V supply modification, gain reduction and phono options (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
 | **Quad 44** preamplifier | Draft coverage for recap by serial range (DADA kits I–III), Quad's erratic-switching fix, relay, volume and input-gain options. **Not yet tested with users or on a bench; no BOM rows physically verified.** |
-| Quad 303, 306 | Source documents collected; guides planned — contributions welcome |
+| **Quad 306** power amplifier | Draft coverage for recap, input/feedback update, sensitivity option and reservoir capacitors (DADA kit). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
+| Quad 303 | Source documents collected; guides planned — contributions welcome |
 
 ---
 

@@ -1,0 +1,11 @@
+model,variant,board,ref,function,original_value,original_type,voltage,replacement_value,replacement_type,replacement_part,supplier,supplier_sku,qty,category,status,source,notes
+quad-306,all,motherboard,C1;C5;C6,Compensation,330pF 10% (UP125),capacitor,50V,330pF,polystyrene,,DADA,306 kit,6,restoration,unverified,Q306-S01 p2; Q306-S02 p16,Both channels
+quad-306,all,motherboard,C4,Compensation,180pF 10% (UP125),capacitor,50V,180pF,polystyrene,,DADA,306 kit,2,restoration,unverified,Q306-S01 p2; Q306-S02 p16,
+quad-306,all,motherboard,C8,Compensation,47pF 1% silver mica,capacitor,350V,47pF,polystyrene,,DADA,306 kit,2,restoration,unverified,Q306-S01 p2; Q306-S02 p16,
+quad-306,all,motherboard,C7,Decoupling,47µF 20%,electrolytic,63V,100µF 63V,electrolytic,,DADA,306 kit,2,restoration,unverified,Q306-S01 p2; Q306-S02 p16,Polarised
+quad-306,all,motherboard,C10;C11,Reservoir capacitors,4700µF 20%,electrolytic,50V,"6800µF or 4700µF, 50V or 63V",electrolytic snap-in,,DADA,306 kit,4,restoration,unverified,Q306-S01 p2; p5; Q306-S02 p16,"Technician work. + marked on board. Quad lists C10, C11; DADA supplies 4 - confirm count. Reversed caps can explode."
+quad-306,all,motherboard,R6,Input/DC feedback,120K 5%,carbon film,,62K 1%,metal film,,DADA,306 kit,2,modification-input-feedback-update,unverified,Q306-S01 p1-2; Q306-S02 p15,As Quad did in the 606 MK II / 707 / 909
+quad-306,all,motherboard,C2,Input/DC feedback,100nF 10%,capacitor,250V,330nF,MKT film,,DADA,306 kit,2,modification-input-feedback-update,unverified,Q306-S01 p2; Q306-S02 p16,
+quad-306,all,motherboard,C3,Input/DC feedback,680nF 10%,capacitor,63V,1µF,MKT film,,DADA,306 kit,2,modification-input-feedback-update,unverified,Q306-S01 p2; Q306-S02 p16,
+quad-306,all,motherboard,D1-D4;C7 decoupling,Added HF decoupling,none fitted,,,100nF,MKT film,,DADA,306 kit,10,modification-zener-decoupling,unverified,Q306-S01 p2; p5,Copper side; leave the zeners and C7 in place
+quad-306,all,motherboard,R13,Input sensitivity,9R1 1%,metal film,,18R 1% (0.775V) or 27R 1% (1.0V),metal film,,DADA,306 kit,2,modification-input-sensitivity,unverified,Q306-S01 p2; p4; Q306-S02 p8; p15,Optional. As fitted gives 0.375V. DADA's kit list says R13b/R13c; Quad has one R13.
