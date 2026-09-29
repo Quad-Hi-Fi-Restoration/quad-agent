@@ -146,13 +146,12 @@ for register in registers:
                     problem(f"{register.relative_to(ROOT)}: duplicate source ID {first_cell}")
                 declared_sources.add(first_cell)
 
-if INDEX.exists():
-    index_text = INDEX.read_text(encoding="utf-8")
-    # Local source-document paths in the source table must match actual filenames.
-    source_section = index_text.split("## Source documents", 1)[-1].split("## Credits", 1)[0]
-    for ref in re.findall(r"`(source-docs/[^`]+)`", source_section):
-        if not (ROOT / ref).exists():
-            problem(f"quad-upgrade/reference/index.md: missing source copy {ref}")
+# Local source-document paths in each register must match actual filenames.
+for register in registers:
+    if register.exists():
+        for ref in re.findall(r"`(source-docs/[^`]+)`", register.read_text(encoding="utf-8")):
+            if not (ROOT / ref).exists():
+                problem(f"{register.relative_to(ROOT)}: missing source copy {ref}")
 
 # Physical verification must cite a logged observation, not only a document.
 for bom in sorted((SKILL / "data").glob("*-bom.csv")):

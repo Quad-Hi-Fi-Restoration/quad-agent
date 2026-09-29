@@ -25,4 +25,5 @@ This is an inventory of source documents for models not yet supported by the ski
 
 ## Current use boundary
 
-The public restoration skill currently supports the QUAD 34 only. QUAD 33 and 303 remain unsupported until their source versions, serial/revision applicability, component claims and safety procedures have been reviewed. Do not cite them as supported skill sources or give component values or repair steps for these models based only on this inventory.
+
+Supported models are listed in `quad-upgrade/reference/index.md`. Models listed here remain unsupported until their source versions, serial/revision applicability, component claims and safety procedures have been reviewed. Do not cite them as supported skill sources or give component values or repair steps for these models based only on this inventory.

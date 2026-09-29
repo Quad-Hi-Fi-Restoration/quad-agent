@@ -25,9 +25,9 @@ Work on live equipment should be avoided wherever possible. A variac, dim-bulb t
 ## First power-up after work
 
 9. **Visual check**: no solder bridges, no loose clippings, every polarised part the right way round, nothing left unsoldered.
-10. **Powered work is for a competent restorer.** Quad's own procedure uses a variac while watching current (Quad 34: S8 p15); this is not a beginner procedure and a variac is not an isolation device. Confirm the fuse matches the rating stated on the unit's own rear panel before use.
-11. **Nothing connected** to the outputs for the first power-up.
-12. **Measure** the checks in the model's `tests.md` (supply rails, DC at outputs) before connecting to a power amp.
+10. **Powered work is for a competent restorer.** Quad's own service procedures may use a variac while watching current (see the model's `tests.md`); this is not a beginner procedure and a variac is not an isolation device. Confirm the fuse matches the rating stated on the unit's own rear panel before use.
+11. **Nothing connected** to the outputs (no amplifier, no loudspeakers) for the first power-up.
+12. **Measure** the checks in the model's `tests.md` (supply rails, DC at outputs) before connecting it to anything else — a power amplifier for a preamp, loudspeakers for a power amp.
 13. **Smell, smoke, heat**: switch off at the wall immediately and investigate.
 
 If any step can't be done safely with the user's tools or experience, recommend a qualified technician for that step.

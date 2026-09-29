@@ -25,12 +25,17 @@ REQUIRED = ["ref", "replacement_value", "qty", "source"]
 STATUSES = {"template", "unverified", "verified", "conflict"}
 
 
+def variant_label(variant):
+    """Serial ranges read as 'serial <=8000'; named variants such as 'MKI' stand alone."""
+    return f"serial {variant}" if variant[:1] in "<>0123456789" else variant
+
+
 def job_key(r, variants):
     if r["category"] == "restoration":
-        return [f"restoration (serial {v})" for v in variants
+        return [f"restoration ({variant_label(v)})" for v in variants
                 if r["variant"] in (v, "all")]
     if r["variant"] in variants:
-        return [f"{r['category']} (serial {r['variant']})"]
+        return [f"{r['category']} ({variant_label(r['variant'])})"]
     return [r["category"]]
 
 
