@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Quad 303 power amplifier (limited): identification, factory changes, like-for-like electrolytic recap from Quad's service supplement, R108/C103 sensitivity option, Quad's setting-up procedure and fault checks. No kit guide available yet. All data provisional.
 - Quad 306 power amplifier: identification, factory changes, service notes, motherboard recap, input/feedback update, zener decoupling, R13 sensitivity option, reservoir capacitors, terminals and checks after work. All data provisional.
 - Quad 44 preamplifier: identification, DADA kits I–III by serial range, recap of motherboard, tone board and input modules, Quad Technical Information 003 erratic-switching fix, relay-rattle, volume-zero and unity-gain options, known faults and checks after work. All data provisional.
 - Quad 33 control unit: identification, factory changes, recap of power supply, filter, amp, pre-amp and adaptor boards, DADA's 16 V supply modification, gain reduction, phono gain and MM loading options, and checks after work. All data provisional.

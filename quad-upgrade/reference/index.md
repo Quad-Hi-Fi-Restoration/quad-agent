@@ -10,7 +10,7 @@
 | Quad 33 control unit | Draft recap of all boards, 16 V supply modification, gain reduction, phono gain and MM loading options; not user- or bench-tested; no BOM rows physically verified. | `quad-33/` | `../data/quad-33-bom.csv` |
 | Quad 44 preamplifier | Draft recap by DADA kit (I, II, III by serial), Quad's erratic-switching fix, relay and volume fixes, unity-gain input option; not user- or bench-tested; no BOM rows physically verified. | `quad-44/` | `../data/quad-44-bom.csv` |
 | Quad 306 power amplifier | Draft recap, input/feedback update, zener decoupling, sensitivity option and reservoir capacitors; not user- or bench-tested; no BOM rows physically verified. | `quad-306/` | `../data/quad-306-bom.csv` |
-| Quad 303 | Planned; source documents are in the repository's `source-docs/` folder but guides are not written yet | — | — |
+| Quad 303 power amplifier | Limited draft: like-for-like electrolytic recap from Quad's parts list (no kit guide), sensitivity option and Quad's setting-up procedure; not user- or bench-tested; no BOM rows physically verified. | `quad-303/` | `../data/quad-303-bom.csv` |
 
 If a user's model isn't supported yet, say so. You can still help with general practice and safety, but do not supply component values.
 
