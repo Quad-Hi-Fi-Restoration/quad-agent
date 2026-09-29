@@ -7,7 +7,8 @@ Give any AI assistant access to this skill folder and it can use it as a careful
 | Model | Status |
 |---|---|
 | **Quad 34** preamplifier | Draft coverage for recap, MM/MC disc modules, phono mods, disc-to-line conversion, output level, balance repair, and fault-finding. **Not yet tested with users or on a bench; no BOM rows have physical board verification yet.** |
-| Quad 33, 303, 405 / 405-2, 306, 606 | Planned — contributions welcome |
+| **Quad 606** power amplifier | Draft coverage for board recap, reservoir capacitors, MK I input update and input sensitivity (DADA kit; also 707 / 909). **Not yet tested with users or on a bench; no BOM rows physically verified.** |
+| Quad 33, 303, 405 / 405-2, 306, 44 | Source documents collected; guides planned — contributions welcome |
 
 ---
 
@@ -72,6 +73,9 @@ A static, GitHub Pages-ready landing page lives in [`docs/`](docs/). It introduc
 ---
 
 ## Sources
+
+The Quad 606 data comes from DADA Electronics' 606 upgrade guide v2.6 and Quad's 606 service data; see [`quad-upgrade/reference/quad-606/source-register.md`](quad-upgrade/reference/quad-606/source-register.md).
+
 
 The Quad 34 data is distilled from Quad's own service data and diagrams, plus upgrade guides by DADA Electronics, Keith Snook, Russ Andrews (RATA) and members of the Quad community. The full list, with what each source covers, is in [`quad-upgrade/reference/index.md`](quad-upgrade/reference/index.md). The QUAD 34 parts remain provisional until checked against physical boards; treat the list as a research aid, not a confirmed shopping order.
 

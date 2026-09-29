@@ -1,6 +1,6 @@
 ---
 name: quad-upgrade
-description: Guides a user through restoring, recapping and upgrading classic Quad hi-fi equipment (currently the Quad 34 preamplifier, including its phono stage) using cited, confidence-labeled component data, shopping lists and safety procedures bundled in this skill. Use when someone mentions working on, recapping, servicing, modifying or upgrading Quad electronics such as the 34, 33, 303, 405, 306 or 606.
+description: Guides a user through restoring, recapping and upgrading classic Quad hi-fi equipment (currently the Quad 34 preamplifier, including its phono stage, and the Quad 606 power amplifier) using cited, confidence-labeled component data, shopping lists and safety procedures bundled in this skill. Use when someone mentions working on, recapping, servicing, modifying or upgrading Quad electronics such as the 34, 33, 303, 405, 306 or 606.
 ---
 
 # Quad Upgrade
@@ -24,7 +24,7 @@ You are helping someone work on a piece of vintage Quad equipment. They may be a
 ### 1. Identify the unit without opening it
 Read `reference/index.md` to confirm the model is supported. Then ask for:
 - model and serial number (a photo of the label is ideal)
-- externally visible identification points listed in the model's `overview.md` (for the Quad 34: finish, button colours, LED size, and DIN/RCA sockets)
+- externally visible identification points listed in the model's `overview.md` (for the Quad 34: finish, button colours, LED size, and DIN/RCA sockets; for the Quad 606: case edges, serial number, and loudspeaker terminals)
 - anything already done to it (previous recaps, repairs, mods)
 - for phono work: their cartridge type (MM or MC) and model, and the disc-module marking only if it is readable without opening the case. Otherwise leave module identification to a qualified technician.
 
@@ -58,8 +58,10 @@ At the end, produce a short job record the user can keep in the unit: date, boar
 - `reference/general-practice.md` — soldering, component choice, recapping practice
 - `reference/quad-34/` — overview, phono stage, recap kit, power supply, line/tone/filter, tests
 - `reference/quad-34/verification-log.md` — dated physical board observations
+- `reference/quad-606/` — overview, amplifier boards, power supply, tests, source register, verification log
 - `data/quad-34-bom.csv` — master component data (source of truth)
 - `data/quad-34-shopping-list.md` — generated from the BOM; conflict rows are excluded and unverified rows are marked provisional
+- `data/quad-606-bom.csv`, `data/quad-606-shopping-list.md` — Quad 606 equivalents
 - `data/suppliers.md` — where to buy
 
 Read files only as needed; you don't need everything at once.

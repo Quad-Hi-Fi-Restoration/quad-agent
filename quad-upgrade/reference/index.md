@@ -5,7 +5,8 @@
 | Model | Status | Folder | BOM |
 |---|---|---|---|
 | Quad 34 preamplifier | Draft restoration and phono coverage; not user- or bench-tested. No BOM rows have physical board verification yet; source disagreements are flagged. | `quad-34/` | `../data/quad-34-bom.csv` |
-| Quad 33, 303, 405 / 405-2, 306, 606 | Planned; source documents are in `source-docs/` but guides are not written yet | — | — |
+| Quad 606 power amplifier (MK I, MK II; DADA kit also fits 707 / 909) | Draft board recap, PSU capacitors, input sensitivity and MK I input update from the DADA guide and Quad service data; not user- or bench-tested; no BOM rows physically verified. Sources in `quad-606/source-register.md`. | `quad-606/` | `../data/quad-606-bom.csv` |
+| Quad 33, 303, 405 / 405-2, 306, 44 | Planned; source documents are in `source-docs/` but guides are not written yet | — | — |
 
 If a user's model isn't supported yet, say so. You can still help with general practice and safety, but do not supply component values.
 
@@ -25,6 +26,17 @@ The current QUAD 33 and 303 source inventory is in [`../../source-docs/research-
 | `quad-34/verification-log.md` | Dated, serial-specific board checks and test observations |
 | `quad-34/images/phono-module-silkscreen-M12728.png` | Solder-side component map of the disc module (S10) |
 | `glossary.md` | Beginner definitions for component and restoration terms |
+
+## Quad 606 files
+
+| File | Covers |
+|---|---|
+| `quad-606/overview.md` | Identification (MK I / MK II, serial exception), factory changes, known faults |
+| `quad-606/amplifier-boards.md` | Board recap, zener decoupling, MK I input update, input sensitivity (R11) |
+| `quad-606/power-supply.md` | Reservoir capacitors, transformer hum, MK II PSU kit — technician-only |
+| `quad-606/tests.md` | DADA and Quad checks after work |
+| `quad-606/source-register.md` | Quad 606 sources (Q606-S01 to Q606-S04) |
+| `quad-606/verification-log.md` | Dated board checks |
 
 ## Source documents
 
