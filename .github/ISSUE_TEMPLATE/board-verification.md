@@ -1,7 +1,7 @@
 ---
 name: Board verification
 about: Confirm (or correct) component data against a real unit
-title: "[Verify] Quad 34 — "
+title: "[Verify] Quad <model> — "
 labels: verification
 ---
 
@@ -13,11 +13,11 @@ labels: verification
 
 **Date checked and restorer (name optional):**
 
-**Finish / sockets (e.g. late grey, RCA):**
+**External identification (finish, case style, sockets — whatever the model's overview lists):**
 
-**Disc module fitted (panel marking, only if already visible without opening the case):**
+**Modules or options fitted (only if visible without opening the case):**
 
-**What you checked** (refs and what you found — e.g. "C84 present, 22µF"):
+**What you checked** (refs and what you found — e.g. "C7 present, 47µF 63V"):
 
 | Ref | Repo says | Board shows |
 |---|---|---|

@@ -8,6 +8,6 @@ Full licence text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 **Exception:** `quad-upgrade/reference/quad-34/images/phono-module-silkscreen-M12728.png` was released by its author, FRO, under CC0 (public domain dedication).
 
-Component values and technical facts are derived from the source documents listed in `quad-upgrade/reference/index.md`. Copies of those documents in `source-docs/` are not covered by this licence; they are credited to their authors in the source index.
+Component values and technical facts are derived from the source documents listed in each model's `quad-upgrade/reference/<model>/source-register.md`. Copies of those documents in `source-docs/` are not covered by this licence; they are credited to their authors in the source index.
 
 **No warranty.** This material is provided as is. Working on mains-powered equipment is dangerous; you are responsible for your own safety and your equipment.

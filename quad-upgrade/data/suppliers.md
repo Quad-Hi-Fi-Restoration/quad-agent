@@ -10,6 +10,6 @@ Parts on the shopping list reference these suppliers. Stock and part numbers cha
 | MOUSER | Mouser | Worldwide | Wide stock, datasheets |
 | DIGIKEY | DigiKey | Worldwide | Wide stock, datasheets |
 | HFC | Hifi Collective | UK | Audio-grade film capacitors |
-| DADA | DADA Electronics | EU / Australia | Quad service kits and documents. Check with DADA for current kit stock and the serial range covered; the published Quad 34 guide overlaps at serial 8000. [DADA Electronics](https://www.dadaelectronics.com.au/) |
+| DADA | DADA Electronics | EU / Australia | Quad service kits and documents. Check with DADA for current kit stock and which serial range or variant each kit covers. [DADA Electronics](https://www.dadaelectronics.com.au/) |
 
 Use the `supplier` column in the BOM with one of these codes.

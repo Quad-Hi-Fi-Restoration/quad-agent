@@ -24,7 +24,7 @@ This is a portable set of Markdown instructions and reference files, not a hoste
 
 For a direct trial, start a new conversation with:
 
-> Read `quad-upgrade/SKILL.md` and follow it to help me identify my QUAD 34.
+> Read `quad-upgrade/SKILL.md` and follow it to help me identify my Quad amplifier.
 
 An assistant that cannot read local files or import a folder can still use the skill if you provide `SKILL.md` and the relevant reference files in its context. Platform import methods differ; the skill content itself does not depend on a specific vendor.
 
@@ -34,9 +34,9 @@ An assistant that cannot read local files or import a folder can still use the s
 
 Just start talking about your unit:
 
-> I've got a Quad 34 and I want to recap it and look at the phono stage.
+> I've got a Quad [model] and I want to recap it.
 
-It should first ask for the serial number and visible details. It must not ask an inexperienced user to open the unit to take a board photo; if internal inspection is needed, it should do the safety/competence check and may refer that step to a technician. QUAD changed the circuit several times, so parts depend on the actual board as well as the serial number.
+It should first ask for the serial number and visible details. It must not ask an inexperienced user to open the unit to take a board photo; if internal inspection is needed, it should do the safety/competence check and may refer that step to a technician. QUAD made running changes to most models, so parts depend on the actual board as well as the serial number.
 
 ### How much to trust the data
 
@@ -54,7 +54,7 @@ Where Quad's own service data disagrees with its diagrams, the skill explains th
 
 ## Shopping lists
 
-`quad-upgrade/data/quad-34-shopping-list.md` is generated from the component data: one list per job (full recap for your serial range, plus each optional mod). Rebuild it from the repository root with Python 3.10 or newer (no extra packages needed):
+Each model has a `quad-upgrade/data/<model>-shopping-list.md` generated from its component data (`<model>-bom.csv`): one list per job (full recap for your serial range or variant, plus each optional mod). Rebuild it from the repository root with Python 3.10 or newer (no extra packages needed):
 
 ```
 # Windows PowerShell
@@ -74,10 +74,7 @@ A static, GitHub Pages-ready landing page lives in [`docs/`](docs/). It introduc
 
 ## Sources
 
-The Quad 606 data comes from DADA Electronics' 606 upgrade guide v2.6 and Quad's 606 service data; see [`quad-upgrade/reference/quad-606/source-register.md`](quad-upgrade/reference/quad-606/source-register.md).
-
-
-The Quad 34 data is distilled from Quad's own service data and diagrams, plus upgrade guides by DADA Electronics, Keith Snook, Russ Andrews (RATA) and members of the Quad community. The full list, with what each source covers, is in [`quad-upgrade/reference/index.md`](quad-upgrade/reference/index.md). The QUAD 34 parts remain provisional until checked against physical boards; treat the list as a research aid, not a confirmed shopping order.
+Each model's data is distilled from Quad's own service data and diagrams, plus upgrade guides by DADA Electronics and other restorers. Every source, with what it covers and its credits, is listed in that model's `quad-upgrade/reference/<model>/source-register.md`. All parts remain provisional until checked against physical boards; treat the lists as a research aid, not a confirmed shopping order.
 
 The source documents themselves — service data, circuit diagrams, DADA kit instructions and community notes for each model — are in [`source-docs/`](source-docs/).
 
@@ -88,8 +85,8 @@ The source documents themselves — service data, circuit diagrams, DADA kit ins
 ```
 quad-upgrade/          the skill (this is what goes in the zip)
   SKILL.md             instructions the agent follows
-  reference/           safety, general practice, per-model files
-  data/                component BOMs, shopping lists, suppliers
+  reference/           safety, general practice, one folder per model
+  data/                per-model BOMs and shopping lists, suppliers
 scripts/               checks, shopping list builder, packager
 source-docs/           source documents, one folder per model
 templates/             starter files for adding another QUAD model
@@ -109,7 +106,7 @@ The most useful contributions are:
 
 ## Credits
 
-Quad Electroacoustics (service data), DADA Electronics — Stefaan & Joost, Keith Snook, Russ Andrews Turntable Accessories, FRO (phono module image, CC0), and the Quad owners' community for collecting and sharing documents. Full credits in [`quad-upgrade/reference/index.md`](quad-upgrade/reference/index.md).
+Quad Electroacoustics (service data), DADA Electronics — Stefaan & Joost, Keith Snook, Russ Andrews Turntable Accessories, Joost Plugge, FRO, and the Quad owners' community for collecting and sharing documents. Full credits are in [`quad-upgrade/reference/index.md`](quad-upgrade/reference/index.md) and each model's source register.
 
 Quad is a registered trade mark of its owners. This project is not affiliated with or endorsed by Quad.
 
@@ -117,4 +114,4 @@ Quad is a registered trade mark of its owners. This project is not affiliated wi
 
 - Skill text, reference files and data: [CC BY-SA 4.0](LICENSE-CONTENT.md)
 - Scripts: [MIT](LICENSE)
-- The phono module image is CC0 by FRO.
+- Images released CC0 by their authors are noted in [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
