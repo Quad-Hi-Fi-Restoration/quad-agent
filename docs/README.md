@@ -19,5 +19,3 @@ Then open `http://localhost:8000/` in a browser. Stop the server with Ctrl+C. Py
 ## Publish with GitHub Pages
 
 After reviewing the page and merging it to the repository's default branch, a repository maintainer can enable Pages in **Settings → Pages** and choose **Deploy from a branch**, the default branch, and the `/docs` folder. GitHub Pages then serves the site under the repository's Pages address. This repository does not currently configure automatic publishing.
-
-Keep third-party source files out of this site unless redistribution rights have been checked. Link to the source register and published project guidance instead of copying unreviewed material into `docs/`.

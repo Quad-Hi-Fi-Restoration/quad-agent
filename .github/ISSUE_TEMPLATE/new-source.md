@@ -15,6 +15,6 @@ labels: source
 
 **What it covers:**
 
-**Licence or permission to redistribute:** (Do not attach copyrighted manuals unless you have permission. A description and where to find it is enough.)
+**Attach the file or link to it:**
 
 **Is it a text PDF, scanned PDF, or image?**

@@ -17,11 +17,9 @@ The scripts use Python 3.10 or newer and require no additional packages. Run the
 | `verified` | checked by a competent restorer against a documented physical board; record unit, serial, board revision, date and observation in the model verification log | yes, as physically checked |
 | `conflict` | sources disagree, or one source shows two values — note both in `notes` | no — listed under "Needs resolving" |
 
-## Source documents and permissions
+## Source documents
 
-This repository already tracks QUAD 34 source documents under `source-docs/`; they are visible to anyone who can access the repository. A document being available online does not mean it can be redistributed. The source index records what is known about each copy. Do not add another source file to a tracked folder unless you have permission to publish it or it has a clear reuse licence.
-
-For research copies that are not cleared for redistribution, use `source-docs/inbox/<model>/` or the ignored `source-docs/quad-<model>/` research collections. Those files stay on your computer by default. Record the document title, author, edition/date, original URL or owner, and page numbers while extracting facts. Cite the source in the reference/BOM and leave the copy local unless permission is established. If an individual file is later cleared for redistribution, explicitly force-add only that file (`git add -f <path>`) and update the source register; never force-add an entire research folder.
+Source documents live in `source-docs/<model>/` (for example `source-docs/quad-606/`). Add new ones there and record the document title, author, edition/date, where it came from, and page numbers in the source register, so the guides can cite it and its authors get credit.
 
 ## Distilling documents with an AI assistant
 
@@ -35,7 +33,7 @@ Only a person competent to work safely inside mains equipment should inspect a p
 
 1. Copy `overview.md`, `source-register.md`, and `verification-log.md` from `templates/model/` into `quad-upgrade/reference/<model>/`. Copy `tests-template.md` there as `tests.md`; duplicate and rename `board-template.md` for each board or task.
 2. Create `quad-upgrade/data/<model>-bom.csv` from `templates/model/bom-template.csv`; retain the column names so the shopping-list builder can process it.
-3. Add a source entry to `quad-upgrade/reference/index.md` for every technical claim and identify copyright/redistribution status.
+3. Add a source entry to `quad-upgrade/reference/index.md` for every technical claim, with its author and where it came from.
 4. Add the model and folder map to `quad-upgrade/reference/index.md`; keep the model marked planned until its sources and references are reviewed.
 5. Run the shopping-list builder for your model and `check_repo.py` using the commands for your platform above.
 
