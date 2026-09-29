@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Quad 405 and 405-2 power amplifier: identification, factory change history, board recap (op-amp, zeners, capacitors), zener decoupling, input sensitivity, reservoir capacitors, rewiring and output protection, and checks after work. All data provisional.
 - Quad 606 power amplifier (MK I / MK II; DADA kit also fits 707 / 909): identification, factory change history, board recap, zener decoupling, MK I input update, input sensitivity, reservoir capacitors, and checks after work. All data provisional.
 - Source documents for the Quad 33, 303, 306, 405, 44 and 606 added to `source-docs/`.
 - Shopping lists label named variants (e.g. `MKI`) without the word "serial".
