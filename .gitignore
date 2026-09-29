@@ -6,11 +6,3 @@ Thumbs.db
 
 # Private research inbox; do not publish by accident
 source-docs/inbox/
-
-# Unreviewed third-party source collections; force-add individual cleared files only.
-source-docs/quad-33/
-source-docs/quad-303/
-source-docs/quad-306/
-source-docs/quad-405/
-source-docs/quad-44/
-source-docs/quad-606/
