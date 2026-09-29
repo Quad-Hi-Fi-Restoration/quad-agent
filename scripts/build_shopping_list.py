@@ -27,7 +27,7 @@ STATUSES = {"template", "unverified", "verified", "conflict"}
 
 def variant_label(variant):
     """Serial ranges read as 'serial <=8000'; named variants such as 'MKI' stand alone."""
-    return f"serial {variant}" if variant[:1] in "<>0123456789" else variant
+    return f"serial {variant}" if variant.startswith(("<", ">")) else variant
 
 
 def job_key(r, variants):
