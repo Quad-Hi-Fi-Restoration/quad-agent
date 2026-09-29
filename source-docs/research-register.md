@@ -4,6 +4,8 @@ This is an inventory of source documents for models not yet supported by the ski
 
 ## QUAD 33
 
+Now supported; sources are registered in `quad-upgrade/reference/quad-33/source-register.md`. The inventory below is kept for history.
+
 | ID | File | What it appears to be | Review notes | Origin |
 |---|---|---|---|---|
 | Q33-S01 | `quad-33/Dada - Quad_33_Revision_V2.8.pdf` | DADA Electronics illustrated upgrade guide; 17 pages; PDF metadata names Joost and records 22 May 2023 | Cover identifies v2.8, but extracted page footers say v2.7 and page 1 says 15 pages although the PDF has 17. Resolve the version/page-count discrepancy before citing an instruction. Treat its power-supply and circuit changes as modifications, not routine restoration. | DADA Electronics |

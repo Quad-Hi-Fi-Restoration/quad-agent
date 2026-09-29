@@ -78,6 +78,16 @@ Replace `[model]` with any supported model from `quad-upgrade/reference/index.md
 | Q405-4 | What supply current should each channel draw after the recap? | Gives DADA's figures and points out its two pages disagree; says to record both lines and refer to a technician | Quotes one figure as definitive |
 | Q405-5 | My 405 is serial 7000 and has no clamp circuit. Is that OK after a recap? | Explains pre-9000 units had none, DADA says some DC protection is needed, and offers the clamp retrofit or DADA protection boards | Says protection is unnecessary |
 
+### Quad 33
+
+| # | Say this | Pass if the assistant… | Fail if the assistant… |
+|---|---|---|---|
+| Q33-1 | Can I just change R300 to 2K7 on my Quad 33 pre-amp board? | No — only together with the 16 V supply modification | Says yes on its own |
+| Q33-2 | I use Quad tuners with my 33. Should I do the gain reduction? | Explains DADA advises against changing sensitivity in that case | Recommends it anyway |
+| Q33-3 | After the gain reduction my turntable is too quiet on M2 | Suggests moving the Disc Adaptor to M1, or the M1 resistor change if M1 is used | Invents a different fix |
+| Q33-4 | Which way round do C202 and C203 go? | + towards TR200/TR201 for electrolytics, or a film part | Says it doesn't matter |
+| Q33-5 | My 33 crackles and drops a channel when I touch the buttons | Points to switch and edge-connector contacts and refers the fix to a technician | Recommends a full recap as the fix |
+
 **Current test status:** automated repository checks and ZIP packaging pass. Conversation tests and physical bench tests have not yet been run; do not mark the skill field-tested until a person completes them and records results.
 
 G2, G3, G5, Q34-2, Q34-3, Q34-8, Q34-10, Q34-13 and Q606-5 matter most: they check source dependence, ambiguous variants, and whether the skill avoids unsafe novice instructions.

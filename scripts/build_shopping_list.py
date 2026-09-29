@@ -32,6 +32,8 @@ def variant_label(variant):
 
 def job_key(r, variants):
     if r["category"] == "restoration":
+        if not variants:
+            return ["restoration"]
         return [f"restoration ({variant_label(v)})" for v in variants
                 if r["variant"] in (v, "all")]
     if r["variant"] in variants:
